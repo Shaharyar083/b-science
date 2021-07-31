@@ -1,0 +1,96 @@
+.view4 {
+  background-color: rgb(16, 34, 60);
+  h1 {
+    color: #f6d869;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 3rem;
+    padding-top: 5%;
+  }
+  .hr {
+    background-color: #f6d869;
+    width: 7%;
+    height: 3px;
+    margin: auto;
+  }
+
+  .img_div {
+    position: relative;
+    margin: auto;
+    width: 70%;
+
+    img {
+      box-shadow: 0 0 75px 5px #000;
+      margin-top: 5rem;
+      margin-bottom: 4rem;
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  .btn_div {
+    margin: auto;
+    margin-bottom: 8rem;
+    display: flex;
+    justify-content: center;
+    .btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: rgb(12, 26, 46);
+      width: 180px;
+      height: 45px;
+      border-radius: 25px;
+      box-shadow: 0 0 15px -3px #f6d869;
+      cursor: pointer;
+      color: #f6d869;
+      font-size: 18px;
+    }
+  }
+
+  .para {
+    width: 50%;
+    margin: auto;
+    padding-bottom: 1rem;
+    p {
+      color: ivory;
+      font-size: 18px;
+      text-align: center;
+      margin-bottom: 4rem;
+    }
+  }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 600px) {
+  .view4 {
+    padding-top: 1rem;
+    h1 {
+      font-size: 2.3rem;
+    }
+    .hr {
+      width: 17%;
+    }
+
+    .img_div {
+      width: 90%;
+
+      img {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+      }
+    }
+
+    .btn_div {
+      margin-bottom: 4rem;
+    }
+
+    .para {
+      width: 90%;
+      padding-bottom: 1rem;
+      p {
+        font-size: 18px;
+        margin-bottom: 2.5rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,210 @@
+@media only screen and(min-width: 601px) {
+  .view2 {
+    // overflow: hidden;
+    .back_img1 {
+      position: absolute;
+      max-width: 100%;
+      height: auto;
+    }
+
+    .head {
+      background-color: rgb(16, 34, 60);
+
+      h1 {
+        color: #f6d869;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 3rem;
+        padding-top: 7%;
+        padding-bottom: 3%;
+        position: relative;
+      }
+      .head_para {
+        width: 50%;
+        margin: auto;
+        padding-bottom: 3rem;
+      }
+      p {
+        color: aliceblue;
+        font-size: 1.05rem;
+        font-weight: lighter;
+        letter-spacing: 0px;
+        line-height: 1.8rem;
+        text-align: center;
+        position: relative;
+      }
+    }
+
+    .body {
+      background-color: rgb(16, 34, 60);
+      padding-top: 4%;
+      height: auto;
+
+      .div_section {
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+
+        .d1,
+        .d2,
+        .d3 {
+          margin: auto;
+          position: relative;
+          margin-bottom: 50px;
+          width: 345px;
+          height: 345px;
+          .div1,
+          .div2,
+          .div3 {
+            background-color: #000;
+            opacity: 0.6;
+            width: 100%;
+            height: 100%;
+            transform: rotate(94deg);
+            border-radius: 10px;
+            position: absolute;
+          }
+
+          .div1_inner,
+          .div2_inner,
+          .div3_inner {
+            background-color: #23436e !important;
+            background: transparent linear-gradient(326deg, #152e51, #23436e) 0
+              0 no-repeat padding-box;
+            position: relative;
+            border-radius: 25px;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+
+            .div_img {
+              margin-top: 35px;
+              margin-bottom: 45px;
+            }
+            img:hover {
+              transition: all 0.5s ease-in-out;
+              transform: rotate(360deg);
+              cursor: pointer;
+            }
+
+            p {
+              color: white;
+              width: 85%;
+              font-size: 16px;
+              opacity: 0.7;
+              margin: auto;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 600px) {
+  .view2 {
+    position: relative;
+
+    .back_img1 {
+      position: absolute;
+      max-width: 100%;
+      height: auto;
+    }
+
+    .head {
+      background-color: rgb(16, 34, 60);
+
+      h1 {
+        color: #f6d869;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 2.3rem;
+        padding-top: 8%;
+        padding-bottom: 4%;
+        position: relative;
+      }
+      .head_para {
+        width: 95%;
+        margin: auto;
+        padding-bottom: 2rem;
+      }
+      p {
+        color: aliceblue;
+        font-size: 1rem;
+        font-weight: lighter;
+        letter-spacing: 0px;
+        line-height: 1.8rem;
+        text-align: center;
+        position: relative;
+      }
+    }
+
+    .body {
+      background-color: rgb(16, 34, 60);
+      position: relative;
+      padding-top: 15%;
+      padding-bottom: 15%;
+      height: auto;
+
+      .div_section {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+
+        .d1,
+        .d2,
+        .d3 {
+          margin: auto;
+          position: relative;
+          margin-bottom: 50px;
+          width: 345px;
+          height: 345px;
+          .div1,
+          .div2,
+          .div3 {
+            background-color: #000;
+            opacity: 0.6;
+            width: 100%;
+            height: 100%;
+            transform: rotate(94deg);
+            border-radius: 10px;
+            position: absolute;
+          }
+
+          .div1_inner,
+          .div2_inner,
+          .div3_inner {
+            background-color: #23436e !important;
+            background: transparent linear-gradient(326deg, #152e51, #23436e) 0
+              0 no-repeat padding-box;
+            position: relative;
+            border-radius: 25px;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+
+            .div_img {
+              margin-top: 35px;
+              margin-bottom: 45px;
+            }
+            img:hover {
+              transition: all 0.5s ease-in-out;
+              transform: rotate(360deg);
+              cursor: pointer;
+            }
+
+            p {
+              color: white;
+              width: 85%;
+              font-size: 16px;
+              opacity: 0.7;
+              margin: auto;
+            }
+          }
+        }
+      }
+    }
+  }
+}

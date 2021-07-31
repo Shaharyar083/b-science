@@ -1,0 +1,239 @@
+.view5 {
+  background-color: rgb(16, 34, 60);
+
+  .head {
+    h1 {
+      color: #f6d869;
+      text-align: center;
+      font-weight: bolder;
+      font-size: 3rem;
+      padding-top: 2rem;
+    }
+    .hr {
+      background-color: #f6d869;
+      width: 7%;
+      height: 3px;
+      margin: auto;
+    }
+  }
+
+  .body {
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-around;
+    .div1 {
+      width: 20%;
+      text-align: center;
+      .div1_data {
+        h1 {
+          color: white;
+          font-size: 20px;
+          margin-bottom: 1rem;
+        }
+        p {
+          color: white;
+          font-weight: 10px;
+        }
+      }
+
+      .div1_q1 {
+        margin-top: 3rem;
+        .circle {
+          border: 10px solid #f6d869;
+          margin: auto;
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+          position: relative;
+          p {
+            position: absolute;
+            top: 30%;
+            left: 25%;
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+          }
+        }
+
+        p {
+          color: white;
+          font-weight: 600;
+          font-size: 30px;
+        }
+      }
+    }
+
+    .div2 {
+      width: 20%;
+      text-align: center;
+
+      .div2_q1 {
+        .circle {
+          border: 10px solid #f6d869;
+          margin: auto;
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+          position: relative;
+          p {
+            position: absolute;
+            top: 30%;
+            left: 25%;
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+          }
+        }
+
+        p {
+          color: white;
+          font-weight: 600;
+          font-size: 30px;
+        }
+      }
+
+      .div2_data {
+        margin-top: 3rem;
+        h1 {
+          color: white;
+          font-size: 20px;
+          margin-bottom: 1rem;
+        }
+        p {
+          color: white;
+          font-weight: 10px;
+        }
+      }
+    }
+
+    .line {
+      border: 4px dashed #f6d869;
+      width: 18%;
+      position: absolute;
+      left: 11%;
+      top: 45%;
+      transform: rotate(-30deg);
+    }
+
+    .line1 {
+      border: 4px dashed #f6d869;
+      width: 18%;
+      position: absolute;
+      left: 31%;
+      top: 45%;
+      transform: rotate(30deg);
+    }
+
+    .line2 {
+      border: 4px dashed #f6d869;
+      width: 18%;
+      position: absolute;
+      left: 51%;
+      top: 45%;
+      transform: rotate(-30deg);
+    }
+
+    .line3 {
+      border: 4px dashed #f6d869;
+      width: 18%;
+      position: absolute;
+      left: 71%;
+      top: 45%;
+      transform: rotate(30deg);
+    }
+  }
+
+  .pad {
+    padding-bottom: 5rem;
+  }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 600px) {
+  .view5 {
+    .head {
+      h1 {
+        font-size: 2.3rem;
+      }
+      .hr {
+        width: 17%;
+      }
+    }
+
+    .body {
+      margin-top: 10%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .div1 {
+        width: 85%;
+        text-align: center;
+        .div1_data {
+          h1 {
+            font-size: 20px;
+            margin-bottom: 1rem;
+          }
+          p {
+            font-weight: 10px;
+          }
+        }
+
+        .div1_q1 {
+          margin-top: 1rem;
+          p {
+            font-weight: 500;
+            font-size: 25px;
+          }
+        }
+      }
+
+      .div2 {
+        width: 85%;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        display: flex;
+        flex-direction: column-reverse;
+        .div2_q1 {
+          p {
+            font-weight: 500;
+            font-size: 25px;
+          }
+        }
+
+        .div2_data {
+          margin-top: 1rem;
+          h1 {
+            font-size: 20px;
+            margin-bottom: 1rem;
+          }
+          p {
+            font-weight: 10px;
+          }
+        }
+      }
+
+      .line {
+        left: 41%;
+        top: 18%;
+        transform: rotate(90deg);
+      }
+      .line1 {
+        left: 41%;
+        top: 39%;
+        transform: rotate(90deg);
+      }
+      .line2 {
+        left: 41%;
+        top: 60%;
+        transform: rotate(90deg);
+      }
+      .line3 {
+        left: 41%;
+        top: 81%;
+        transform: rotate(90deg);
+      }
+    }
+  }
+}
